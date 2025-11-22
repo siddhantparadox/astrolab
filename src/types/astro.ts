@@ -46,8 +46,6 @@ export interface EditParams {
   image_size: "1K" | "2K" | "4K";  // Nano Banana Pro sizes
 
   // Sliders: 0–100
-
-  // Sliders: 0–100
   background_neutralization: number; // gradient removal / background balance
   sky_darkening: number;             // black point push
   stretch_strength: number;          // global stretch / contrast
